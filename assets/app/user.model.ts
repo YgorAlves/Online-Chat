@@ -1,0 +1,8 @@
+export class user{
+    constructor(messageId: string, content: string, userId: string, username: string){
+        this.messageId = messageId;
+        this.content = content;
+        this.userId = userId;
+        this.username = username;
+    }
+}

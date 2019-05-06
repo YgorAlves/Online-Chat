@@ -1,0 +1,15 @@
+
+<article class="panel panel-default" [ngStyle]="{backgroundColor: color, 'font-size.px': tam}">        
+        <div class="panel-body">
+                {{ messageVarClasse.content }}
+        </div>
+        <footer class="panel-footer">
+            <div class="author">
+                    {{ messageVarClasse.username }}
+            </div>
+            <div class="config">
+                <a (click)="onEditService()">Edit</a>
+                <a (click)="onDeleteService()">Delete</a>
+            </div>
+        </footer>
+    </article>
